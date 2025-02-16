@@ -16,6 +16,7 @@ A simple application which is demonstrate:
 -   api routes
 -   UserController
 -   UserResource
+-   enums types
 -   test for User
 
 If you want to test application, please do next operations in the terminal:
@@ -25,6 +26,23 @@ If you want to test application, please do next operations in the terminal:
   make test
 ```
 
-TODOs:
+By the text bellow, you will find tests from postman:
 
--   dockerize app
+-   Registration:
+    ![registration-ok](readme/api-registration-postman.png)
+
+-   Registration validation error:
+    ![registration-error](readme/api-registration-errorValidation-postman.png)
+
+-   Show profile:
+    ![profile-ok](readme/api-profile-postman.png)
+
+    ![profile-error](readme/api-profile-error-postman.png)
+
+-   Log in:
+    ![login-ok](readme/api-login-postman.png)
+
+    ![login-error](readme/api-login-error-postman.png)
+
+-   Log out:
+    ![login-ok](readme/api-logout-postman.png)
